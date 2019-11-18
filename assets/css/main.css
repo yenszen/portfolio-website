@@ -4111,6 +4111,14 @@ input, select, textarea {
 	}
 
 /* My own code */
-#nav ul li:nth-child(-n+3) {
+#nav ul li:nth-child(-n+3), .col-4.col-6-medium.col-12-xsmall:nth-last-child(-n+3) {
 	display: none;
+}
+
+.col-4.col-6-medium.col-12-xsmall h3 {
+	cursor: pointer;
+}
+
+.col-4.col-6-medium.col-12-xsmall h3:hover {
+	color: gold !important;
 }
