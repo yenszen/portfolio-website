@@ -4109,3 +4109,8 @@ input, select, textarea {
 					}
 
 	}
+
+/* My own code */
+#nav ul li:nth-child(-n+3) {
+	display: none;
+}
